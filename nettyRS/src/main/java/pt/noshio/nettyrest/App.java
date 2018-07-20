@@ -1,4 +1,4 @@
-package nettyrest;
+package pt.noshio.nettyrest;
 
 import java.net.URI;
 

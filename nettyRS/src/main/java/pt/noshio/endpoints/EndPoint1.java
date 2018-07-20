@@ -1,9 +1,9 @@
-package endpoints;
+package pt.noshio.endpoints;
 
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import Injectables.Injectable1;
+import pt.noshio.injectables.Injectable1;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

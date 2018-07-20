@@ -1,4 +1,4 @@
-package Injectables;
+package pt.noshio.injectables;
 
 import javax.inject.Named;
 

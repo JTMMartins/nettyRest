@@ -1,4 +1,4 @@
-package nettyrest;
+package pt.noshio.nettyrest;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.server.ServerProperties;
