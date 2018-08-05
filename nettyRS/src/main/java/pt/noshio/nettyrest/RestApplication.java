@@ -7,7 +7,7 @@ public class RestApplication extends ResourceConfig {
 	public RestApplication() {
 		// classes in this package will be scanned
 		// for resources (endpoints)
-		packages("endpoints");
+		packages("pt.noshio.endpoints");
 		property(ServerProperties.TRACING, "ALL");
 	}
 

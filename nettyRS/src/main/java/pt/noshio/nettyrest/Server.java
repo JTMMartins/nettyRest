@@ -17,7 +17,7 @@ public class Server {
 		Weld weld = new Weld();
 		weld.initialize(); // The weld container will be initialized
 
-		RestApplication restApplication = new RestApplication();
+		RestApplication restApplication=new RestApplication();
 		ResourceConfig resourceConfig = new ResourceConfig(restApplication);
 
 		try {
@@ -31,7 +31,7 @@ public class Server {
 				}
 			}));
 
-			System.out.println(String.format("Application started. (HTTP/2 enabled!)\nTerminate with " + "CTRL+C."));
+			System.out.println(String.format("Application started. (HTTP/2 enabled!)\nTerminate with CTRL+C "));
 			Thread.currentThread().join();
 		} catch (InterruptedException ex) {
 			Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);

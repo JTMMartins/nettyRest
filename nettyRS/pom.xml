@@ -72,7 +72,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>nettyrest.App</mainClass>
+							<mainClass>pt.noshio.nettyrest.App</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
